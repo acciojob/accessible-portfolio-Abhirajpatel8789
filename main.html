@@ -3,11 +3,38 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	 <title>ARIA Roles Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 role="heading">Welcome to ARIA Roles Demo</h1>
+	<nav role="navigation">
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+	<img 
+        src="https://printawallpaper.com/wp-content/uploads/2020/07/swiss_landscape_detail.jpg" 
+        alt="Sample landscape image" 
+        role="img"
+        width="300"
+    >
+	<p>
+        This page demonstrates how ARIA roles are bound to specific HTML tags
+        to improve accessibility for assistive technologies.
+    </p>
+
+	<ul role="list">
+        <li role="listitem">Accessible Navigation</li>
+        <li role="listitem">Screen Reader Support</li>
+        <li role="listitem">Improved Usability</li>
+    </ul>
+	
+
+     
     <script type="text/javascript" src="./script.js">
 </script>
 
